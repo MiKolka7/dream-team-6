@@ -1,0 +1,83 @@
+/*	header	*/
+
+header {
+	padding: 44px 0 44px 0;
+    background: rgba(0, 0, 0, 0.5) url('../img/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.logo { float: left; }
+
+.menu { float: right; }
+
+.menu a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.menu a:hover { color: #FED136; }
+
+.menu a:active { color: #9A9A9A; }
+
+header .title {
+	color: white;
+	font-family: DroidSerif;
+	font-size: 40px;
+	font-weight: lighter;
+	font-style: italic;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 170px 0 25px 0;
+}
+
+header .description {
+	display: block;
+	color: white;
+	font-family: Montserrat;
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-style: normal;
+	margin: 0;
+}
+
+.btn {
+	display: block;
+	margin: 40px auto;
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.btn:hover { background-color: #BD911A; }
+
+.btn:active { box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.5); }
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    header {
+        min-height: 350px;
+    }
+    
+    .menu {
+        display: block;
+    }
+}
+
+
+/* end header */
+

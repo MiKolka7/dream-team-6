@@ -1,0 +1,31 @@
+.clearfix::after {
+	content: '';
+	overflow: hidden;
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.title {
+	color: #222;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.description {
+	text-align: center;
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 16px;
+	font-style: italic;
+	margin: 0;
+}
