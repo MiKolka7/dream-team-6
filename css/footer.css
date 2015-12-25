@@ -1,0 +1,22 @@
+.footer .container {
+	position: relative;
+	text-align: center;
+}
+
+.footer nav {
+	display: inline-block;
+	line-height: 100px;
+}
+.footer img {
+	vertical-align: middle;
+}
+
+.copyright {
+	position: absolute;
+	left: 0;
+	padding: 0;
+	line-height: 100px;
+}
+.footer nav a {
+	text-decoration: none;
+}

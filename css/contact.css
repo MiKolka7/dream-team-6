@@ -1,0 +1,70 @@
+.contact {
+	width: 100%;
+	background-image: url('../img/2-layers.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100% 100%;
+	padding: 110px 0 115px 0;
+}
+
+.title_white {
+	color: white;
+}
+
+.form {
+	margin: 75px -1% 0 -1%;
+}
+
+.form-col {
+	width: 48%;
+	margin: 0 1%;
+	float: left;
+	}
+
+.input {
+	width: 100%;
+	height: 52px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	text-transform: uppercase;
+    box-sizing: border-box;
+	padding: 0 21px;
+	margin-bottom: 25px;
+	font-size: 14px;
+	font-family: Montserrat;
+	font-weight: 700;
+	}
+
+.input_mes {
+	width: 100%;
+	height: 207px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding: 20px 21px;
+	font-size: 14px;
+	font-family: Montserrat;
+	font-weight: 700;
+	line-height: 16px;
+	}
+
+.bottom {
+	width: 25%;
+	height: 65px;
+	border: 0 solid #ccc;
+	background-color: #fed136;
+	border-radius: 3px;
+	margin: 0 auto;
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+.submit {
+	text-align: center;
+}
+	

@@ -1,0 +1,136 @@
+.about{padding: 110px 0 115px 0}
+.about-section{
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+}
+
+.about-float-left{float: left;}
+.about-float-right{float: right;}
+
+ul{list-style-type:none;}
+
+/*Блок: картинка + заголовок + текст*/
+.about-item {
+	width: 467px;     
+	height: 270px;   
+	margin: 0 1px 0 1px;
+}
+
+.about-line-right{
+	border-style: solid; 
+	border-width: 2px; 
+	border-color: #FFFFFF #f1f1f1 #FFFFFF #FFFFFF;
+}
+
+.about-line-left{
+	border-style: solid; 
+	border-width: 2px; 
+	border-color: #FFFFFF #FFFFFF #FFFFFF #f1f1f1;
+}
+
+/* Картинка  */
+.about-img-r{
+	width: 182px;            /* Ширина по дизайну */
+	height: 170px;           /*  Высота по дизайну */
+	margin-right: -94px;     /*  Сдвиг на половину ширины */
+	
+	float:right;
+	
+	border-radius: 50%;
+	border: 3px solid #f1f1f1;
+}
+
+.about-img-l{
+	width: 182px;            /* Ширина по дизайну */
+	height: 170px;           /*  Ширина по дизайну */
+	margin-left: -94px;      /*  Сдвиг на половину ширины */
+	
+	float: left;
+	
+	border-radius: 50%;
+	border: 3px solid #f1f1f1;
+}
+
+.about-img-empty{
+	width: 182px;            /* Ширина по дизайну */
+	height: 182px;           /*  Высота по дизайну */
+	margin-right: -94px;     /*  Сдвиг на половину ширины */
+	
+	float:right;
+	
+	border-radius: 50%;
+	border: 3px solid #f1f1f1;
+}
+
+/* Текстовый блок: заголовок + описание */
+.about-text-l{
+	width: 307px;   /*  Ширина=половина общей ширины - половина картинки- паддинг(по дизайну) */    
+	margin: 0;
+	padding: 0 42px 0 0; 
+	
+	float:left;
+}
+
+.about-text-r{
+	width: 307px;   /*  Ширина=половина общей ширины - половина картинки- паддинг(по дизайну) */    
+	margin: 0;
+	padding: 0 0 0 42px; 
+	
+	float:right;
+}
+
+/* Заголовок в блоке: параметры по дизайну; объединяет 2 строки*/
+.about-header{
+	width: 207px;
+	height: 43px;
+	margin:0;
+}
+
+/* Стиль шрифта заголовка по дизайну */
+.about-h3{
+	color: #222;
+	
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	
+	margin: 0;
+}
+
+/* Дополнительные параметры для заголовков и текста*/
+.about-h3-upper{text-transform: uppercase}  /* Верхний регистр */
+.about-text-left{text-align: left;}  /* Выравнивание по левому краю */
+.about-text-right{text-align: right;}  /* Выравнивание по правому краю */
+
+/* Текстовое описание внутри блока */
+.about-descr{
+	width: 307px;
+	height: 101px;
+	
+	margin: 0;
+	padding: 35px 0 0 0;
+	
+	color: #777;
+	
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.about-text-last{
+	width: 107px;
+	height: 94px;margin-top: 50px;
+    margin-right: -150px;
+    
+    float: right;
+    
+    color: white;
+    
+    text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+		
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+}

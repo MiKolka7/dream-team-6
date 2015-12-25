@@ -1,0 +1,45 @@
+
+
+.our-portfolio {
+	background-color: #f7f7f7;
+    padding: 110px 0 115px 0;
+     
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.our-portfolio img {
+	width: 100%;
+}
+
+.our-portfolio-galery__item {
+	float: left;
+	margin: 0 1% 50px;
+	background: #ffffff;
+}
+
+.galery {
+	padding: 120px 0;
+	background-color: #f7f7f7;
+}
+.item {
+	text-align: center;
+	margin-top: 29px;
+	margin-bottom: 0;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;	
+}
+.sub-item {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 27px;
+	color: #737373;
+	font-family: DroidSerif;
+	font-size: 14px;
+	font-style: italic;	
+}
